@@ -112,4 +112,6 @@ Import the Postman Collection to explore endpoints:
 ## 🏆 Conclusion
 This API is the backbone of **VidTube**, handling users, videos, subscriptions, comments, likes, and analytics. It is structured for scalability, security, and easy integration.
 
+---
+
 _© Created by **Huzaifa Ghadiyali**_
