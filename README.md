@@ -46,6 +46,31 @@ You can view the database schema here:
 | GET    | `/users/history`                  | Get user's watch history |
 | POST   | `/users/refresh-token`            | Refresh access token using refresh token |
 
+#### **Example Request (Get Current User's Details)**
+```http
+GET /users/current-user
+```
+##### **Response**
+```json
+{
+  "statusCode": 200,
+  "data": {
+    "_id": "68b959a43744e688fd71630f",
+    "username": "five",
+    "email": "five@gmail.com",
+    "fullname": "five",
+    "avatar": "http://res.cloudinary.com/dxhdtpxgy/image/upload/v1756980492/ye5xzchgpwziplusfs7p.jpg",
+    "coverImage": "http://res.cloudinary.com/dxhdtpxgy/image/upload/v1756983226/bgryezj57pkxu3688h34.jpg",
+    "watchHistory": [],
+    "createdAt": "2025-09-04T09:19:32.366Z",
+    "updatedAt": "2025-09-04T19:33:00.641Z",
+    "__v": 0
+  },
+  "message": "Current user fetched successfully",
+  "success": true
+}
+```
+
 ### 3️⃣ Videos
 | Method | Endpoint                  | Description |
 |--------|---------------------------|-------------|
